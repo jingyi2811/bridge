@@ -43,8 +43,8 @@ forge script script/hyperlane/L2/1_DeployOBTToken.s.sol \
   -vv
 ```
 
-* 📄 Contract: [`0x5011ff5f651adc7ce42133fc3c26ba11f67482bd`](https://sepolia-optimistic.etherscan.io/address/0x5011ff5f651adc7ce42133fc3c26ba11f67482bd)
-* 🧾 Tx: [`0x33cf9a4e10b7c8a98e4ec660fa523edcece0130655c6540e06fb7ce896e3ce00`](https://sepolia-optimistic.etherscan.io/tx/0x33cf9a4e10b7c8a98e4ec660fa523edcece0130655c6540e06fb7ce896e3ce00)
+* Contract: [`0x5011ff5f651adc7ce42133fc3c26ba11f67482bd`](https://sepolia-optimistic.etherscan.io/address/0x5011ff5f651adc7ce42133fc3c26ba11f67482bd)
+* Tx: [`0x33cf9a4e10b7c8a98e4ec660fa523edcece0130655c6540e06fb7ce896e3ce00`](https://sepolia-optimistic.etherscan.io/tx/0x33cf9a4e10b7c8a98e4ec660fa523edcece0130655c6540e06fb7ce896e3ce00)
 
 ---
 
@@ -75,15 +75,17 @@ Here’s the corrected and updated version of your section based on the accurate
 hyperlane warp deploy
 ```
 
+Contract:
 * Optimism Token (Collateral): [`0x5011ff5f651adc7ce42133fc3c26ba11f67482bd`](https://sepolia-optimistic.etherscan.io/address/0x5011ff5f651adc7ce42133fc3c26ba11f67482bd)
 
 * Optimism Proxy Token (Warp Address): [`0xC4891e88E36A0746CE05cb5A5C98E0f79343427B`](https://sepolia-optimistic.etherscan.io/address/0xC4891e88E36A0746CE05cb5A5C98E0f79343427B)
 
 * Sepolia Token (Synthetic): [`0x423654F766DEAE55605e5bd2f22F82861e4d301B`](https://sepolia.etherscan.io/address/0x423654F766DEAE55605e5bd2f22F82861e4d301B)
 
-* Optimism Deployment Tx: [`0xda723b4ef2d810b423bfb67fbbb84e7c56857983f700a1361983c9e69322d632`](https://sepolia-optimistic.etherscan.io/tx/0xda723b4ef2d810b423bfb67fbbb84e7c56857983f700a1361983c9e69322d632)
+Tx:
+* Optimism Deployment: [`0xda723b4ef2d810b423bfb67fbbb84e7c56857983f700a1361983c9e69322d632`](https://sepolia-optimistic.etherscan.io/tx/0xda723b4ef2d810b423bfb67fbbb84e7c56857983f700a1361983c9e69322d632)
 
-* Sepolia Deployment Tx: [`0x597906138f33b57b0dfc6a80649052fdaf4aff8a8dcdc8f54d7632c51a9e113b`](https://sepolia.etherscan.io/tx/0x597906138f33b57b0dfc6a80649052fdaf4aff8a8dcdc8f54d7632c51a9e113b)
+* Sepolia Deployment: [`0x597906138f33b57b0dfc6a80649052fdaf4aff8a8dcdc8f54d7632c51a9e113b`](https://sepolia.etherscan.io/tx/0x597906138f33b57b0dfc6a80649052fdaf4aff8a8dcdc8f54d7632c51a9e113b)
 
 ---
 
