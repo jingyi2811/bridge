@@ -1,0 +1,18 @@
+{
+  "name": "holdex-trial-senior-solidity-engineer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "viem": "^2.29.2",
+    "@layerzerolabs/lz-evm-oapp-v2": "^2.3.40"
+  }
+}
