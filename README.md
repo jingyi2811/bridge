@@ -65,19 +65,25 @@ Follow prompts:
 
 ---
 
+Here’s the corrected and updated version of your section based on the accurate deployment details:
+
+---
+
 ### 🚀 Step 3: Deploy Warp Route
 
 ```bash
 hyperlane warp deploy
 ```
 
-* Optimism Token: [`0xC4891e88E36A0746CE05cb5A5C98E0f79343427B`](https://sepolia-optimistic.etherscan.io/address/0xC4891e88E36A0746CE05cb5A5C98E0f79343427B)
+* **Optimism Token (Collateral):** [`0x5011ff5f651adc7ce42133fc3c26ba11f67482bd`](https://sepolia-optimistic.etherscan.io/address/0x5011ff5f651adc7ce42133fc3c26ba11f67482bd)
 
-* Sepolia Token: [`0x423654F766DEAE55605e5bd2f22F82861e4d301B`](https://sepolia.etherscan.io/address/0x423654F766DEAE55605e5bd2f22F82861e4d301B)
+* **Optimism Proxy Token (Warp Address):** [`0xC4891e88E36A0746CE05cb5A5C98E0f79343427B`](https://sepolia-optimistic.etherscan.io/address/0xC4891e88E36A0746CE05cb5A5C98E0f79343427B)
 
-* Optimism Tx: [`0xf940c85029a40634c11321ab1539df384c0aec51574e0736fc171ecc4b7e9115`](https://sepolia-optimistic.etherscan.io/tx/0xf940c85029a40634c11321ab1539df384c0aec51574e0736fc171ecc4b7e9115)
+* **Sepolia Token (Synthetic):** [`0x423654F766DEAE55605e5bd2f22F82861e4d301B`](https://sepolia.etherscan.io/address/0x423654F766DEAE55605e5bd2f22F82861e4d301B)
 
-* Sepolia Tx: [`0xd103295be48e9d1895f870ae6343cf653f9591648cad24731bcd0f75a7634d9e`](https://sepolia.etherscan.io/tx/0xd103295be48e9d1895f870ae6343cf653f9591648cad24731bcd0f75a7634d9e)
+* **Optimism Deployment Tx:** [`0xda723b4ef2d810b423bfb67fbbb84e7c56857983f700a1361983c9e69322d632`](https://sepolia-optimistic.etherscan.io/tx/0xda723b4ef2d810b423bfb67fbbb84e7c56857983f700a1361983c9e69322d632)
+
+* **Sepolia Deployment Tx:** [`0x597906138f33b57b0dfc6a80649052fdaf4aff8a8dcdc8f54d7632c51a9e113b`](https://sepolia.etherscan.io/tx/0x597906138f33b57b0dfc6a80649052fdaf4aff8a8dcdc8f54d7632c51a9e113b)
 
 ---
 
