@@ -72,7 +72,7 @@ hyperlane warp deploy
 ```
 
 * Optimism Token: [`0xC4891e88E36A0746CE05cb5A5C98E0f79343427B`](https://sepolia-optimistic.etherscan.io/address/0xC4891e88E36A0746CE05cb5A5C98E0f79343427B)
-* 
+
 * Sepolia Token: [`0x423654F766DEAE55605e5bd2f22F82861e4d301B`](https://sepolia.etherscan.io/address/0x423654F766DEAE55605e5bd2f22F82861e4d301B)
 
 * Optimism Tx: [`0xf940c85029a40634c11321ab1539df384c0aec51574e0736fc171ecc4b7e9115`](https://sepolia-optimistic.etherscan.io/tx/0xf940c85029a40634c11321ab1539df384c0aec51574e0736fc171ecc4b7e9115)
