@@ -65,10 +65,6 @@ Follow prompts:
 
 ---
 
-Here’s the corrected and updated version of your section based on the accurate deployment details:
-
----
-
 ### 🚀 Step 3: Deploy Warp Route
 
 ```bash
