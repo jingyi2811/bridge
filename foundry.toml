@@ -5,4 +5,4 @@ libs = ["lib"]
 
 [rpc_endpoints]
 sepolia = "${L1_RPC}"
-optimism-sepolia = "${L2_RPC}"
+poseidontestnet = "${L2_RPC}"

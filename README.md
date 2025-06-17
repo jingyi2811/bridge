@@ -38,13 +38,13 @@ Ensure your wallet has test ETH on both **Sepolia** and **Optimism Sepolia**.
 
 ```bash
 forge script script/hyperlane/L2/1_DeployOBTToken.s.sol \
-  --rpc-url optimism-sepolia \
+  --rpc-url poseidontestnet \
   --broadcast \
   -vv
 ```
 
-* Contract: [`0x5011ff5f651adc7ce42133fc3c26ba11f67482bd`](https://sepolia-optimistic.etherscan.io/address/0x5011ff5f651adc7ce42133fc3c26ba11f67482bd)
-* Tx: [`0x33cf9a4e10b7c8a98e4ec660fa523edcece0130655c6540e06fb7ce896e3ce00`](https://sepolia-optimistic.etherscan.io/tx/0x33cf9a4e10b7c8a98e4ec660fa523edcece0130655c6540e06fb7ce896e3ce00)
+* Contract: [`0x30ED7baB5Cac655222A19dDccEE1d1B3f502b3F1`](https://sepolia-optimistic.etherscan.io/address/0x5011ff5f651adc7ce42133fc3c26ba11f67482bd)
+* Tx: [`0x1d11ece30b21b045cf23fcc1c8a6f04ccdc21782a62d94162c9fd7acdd66dc9a`](https://sepolia-optimistic.etherscan.io/tx/0x33cf9a4e10b7c8a98e4ec660fa523edcece0130655c6540e06fb7ce896e3ce00)
 
 ---
 
@@ -91,12 +91,12 @@ hyperlane warp deploy
 ### 🔁 Step 4: Bridge OBT from L2 ➝ L1
 
 ```bash
-export HYP_KEY=0x<your_private_key>
+export HYP_KEY=0x3ddefe028a764206446f4064b8ab950d71b9fd30705c1a8614a875a10a1450b2
 hyperlane warp send --symbol OBT --relay
 ```
 
-* Approval Tx: [`0xe05d5874e1b9de56d6fbc02ab6f1f553849792a5d1bda70b040a84333117d56b`](https://sepolia-optimistic.etherscan.io/tx/0xe05d5874e1b9de56d6fbc02ab6f1f553849792a5d1bda70b040a84333117d56b)
-* Send Tx: [`0xa53e386bdb9875b3949e21a852c9900d087911213133ccae69f4ad20329b9c0b`](https://sepolia-optimistic.etherscan.io/tx/0xa53e386bdb9875b3949e21a852c9900d087911213133ccae69f4ad20329b9c0b)
+* Approval Tx: [`0x7a2f7f088f06adbfac1d31ca7040dc7a16147d2704ea1d37493b5450ae13718e`](https://sepolia-optimistic.etherscan.io/tx/0xe05d5874e1b9de56d6fbc02ab6f1f553849792a5d1bda70b040a84333117d56b)
+* Send Tx: [`0x1b89cae5e32dd87a37405178b6ad15e3c74f2ca163f60737c1c13ded437e40bc`](https://sepolia-optimistic.etherscan.io/tx/0xa53e386bdb9875b3949e21a852c9900d087911213133ccae69f4ad20329b9c0b)
 
 ---
 
