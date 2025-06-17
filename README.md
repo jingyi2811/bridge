@@ -43,8 +43,8 @@ forge script script/hyperlane/L2/1_DeployOBTToken.s.sol \
   -vv
 ```
 
-* Contract: [`0x30ED7baB5Cac655222A19dDccEE1d1B3f502b3F1`](https://sepolia-optimistic.etherscan.io/address/0x5011ff5f651adc7ce42133fc3c26ba11f67482bd)
-* Tx: [`0x1d11ece30b21b045cf23fcc1c8a6f04ccdc21782a62d94162c9fd7acdd66dc9a`](https://sepolia-optimistic.etherscan.io/tx/0x33cf9a4e10b7c8a98e4ec660fa523edcece0130655c6540e06fb7ce896e3ce00)
+* Contract: [`0x1dC00F3Ac6056d43e04Ea62ba8980bd83273d4A4`](https://sepolia-optimistic.etherscan.io/address/0x5011ff5f651adc7ce42133fc3c26ba11f67482bd)
+* Tx: [`0x76bbc48df5d9429864ae5b5dffef4cbd3d6b789f5fd4a433944d755c5dd7e75a`](https://sepolia-optimistic.etherscan.io/tx/0x33cf9a4e10b7c8a98e4ec660fa523edcece0130655c6540e06fb7ce896e3ce00)
 
 ---
 
@@ -97,29 +97,3 @@ hyperlane warp send --symbol OBT --relay
 
 * Approval Tx: [`0x7a2f7f088f06adbfac1d31ca7040dc7a16147d2704ea1d37493b5450ae13718e`](https://sepolia-optimistic.etherscan.io/tx/0xe05d5874e1b9de56d6fbc02ab6f1f553849792a5d1bda70b040a84333117d56b)
 * Send Tx: [`0x1b89cae5e32dd87a37405178b6ad15e3c74f2ca163f60737c1c13ded437e40bc`](https://sepolia-optimistic.etherscan.io/tx/0xa53e386bdb9875b3949e21a852c9900d087911213133ccae69f4ad20329b9c0b)
-
----
-
-## 🔹 2. Bridge USDC Using Stargate V1 (L2 ➝ L1)
-
-```bash
-forge script script/stargate/L2/1_SendUSDCToL1V1.s.sol \
-  --rpc-url https://sepolia.optimism.io \
-  --broadcast
-```
-
-* Approval: [`0x27d8920b730246f91ba21aee8ea6b4cc0794129d0845e098f45555c02dabd755`](https://sepolia-optimistic.etherscan.io/tx/0x27d8920b730246f91ba21aee8ea6b4cc0794129d0845e098f45555c02dabd755)
-* Transfer: [`0x2cb169a5acf00ad94874c7433d01d6bfbc780856034deebc44793cfa2e3036d7`](https://sepolia-optimistic.etherscan.io/tx/0x2cb169a5acf00ad94874c7433d01d6bfbc780856034deebc44793cfa2e3036d7)
-
----
-
-## 🔹 3. Bridge USDC Using Stargate V2 (L2 ➝ L1)
-
-```bash
-forge script script/stargate/L2/2_SendUSDCToL1V2.s.sol \
-  --rpc-url https://sepolia.optimism.io \
-  --broadcast
-```
-
-* Approval: [`0xc2fa53aad909ce0dd11b8aa0ad885e6af7e7528eba70142d9923dd6281b98cab`](https://sepolia-optimistic.etherscan.io/tx/0xc2fa53aad909ce0dd11b8aa0ad885e6af7e7528eba70142d9923dd6281b98cab)
-* Transfer: [`0x9505a563518020ccd4b7ff8ab23678f4efa173ef6b00d5a557f793ff5618ee77`](https://sepolia-optimistic.etherscan.io/tx/0x9505a563518020ccd4b7ff8ab23678f4efa173ef6b00d5a557f793ff5618ee77)
